@@ -1,0 +1,57 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+}
+
+.card {
+    background: #1e293b;
+    border-radius: 12px;
+    text-align: center;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+h5 {
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+p {
+    color: #cbd5f5;
+    font-size: 14px;
+}
+
+.btn {
+    margin-top: 8px;
+}
+
+.like {
+    cursor: pointer;
+    font-size: 22px;
+    display: block;
+    margin-top: 8px;
+}
+
+.liked {
+    color: red;
+}
+
+/* Read List */
+#readList li {
+    background: #1e293b;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+}
